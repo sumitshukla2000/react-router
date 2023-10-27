@@ -21,7 +21,10 @@ const Header = (props) =>{
                     </Link>
                 </div>
                 <div onClick={props.clicked} className='block font-bold order-1 md:hidden'>
-                    <img src="https://w7.pngwing.com/pngs/267/362/png-transparent-computer-icons-encapsulated-postscript-others-miscellaneous-button-icon-burger-menu.png" className='h-8' alt="" />
+                    {/* <img src="https://w7.pngwing.com/pngs/267/362/png-transparent-computer-icons-encapsulated-postscript-others-miscellaneous-button-icon-burger-menu.png" className='h-8' alt="" /> */}
+                    <p className='text-5xl font-bold'>=</p>
+                    
+
                 </div>
         <div className='hidden flex items-center md:flex'>
                 <NavigationItems />
