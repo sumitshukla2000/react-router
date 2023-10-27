@@ -11,8 +11,8 @@ import Contact from './components/Contact/Contact.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromChildren(
-    <Route path='/' element={<Layout />}>
-        <Route path='/' element={<Home />}/>
+    <Route basename="react-router" element={<Layout />}>
+        <Route path='react-router' element={<Home />}/>
         <Route path='about' element={<About / >} />
         <Route path='contact' element={<Contact />}/>
         <Route path='github' element={<Github />}/>
@@ -24,6 +24,6 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider basename="/react-router" router={router}/>
+    <RouterProvider  router={router}/>
   </React.StrictMode>,
 )
