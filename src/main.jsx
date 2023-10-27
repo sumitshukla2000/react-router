@@ -12,7 +12,7 @@ import Contact from './components/Contact/Contact.jsx'
 const router = createBrowserRouter(
   createRoutesFromChildren(
     <Route basename="react-router" element={<Layout />}>
-        <Route path='/react-router' element={<Home />}/>
+        <Route path='react-router' element={<Home />}/>
         <Route path='about' element={<About / >} />
         <Route path='contact' element={<Contact />}/>
         <Route path='github' element={<Github />}/>
