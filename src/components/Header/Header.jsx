@@ -20,7 +20,7 @@ const Header = () =>{
         <div className='hidden flex items-center order-1 md:flex'>
         <ul className='flex items-center'>
             <li>
-                <NavLink to="/"
+                <NavLink to="/react-router"
                 className={({isActive})=>`py-2 px-4 block ${isActive ? "text-orange-700" : "text-gray-700"} font-semibold text-xl hover:text-orange-700`}>
             Home
                 </NavLink>
